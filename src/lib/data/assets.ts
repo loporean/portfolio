@@ -2,10 +2,17 @@ import type { Asset } from '$lib/types';
 import { theme } from '$lib/stores/theme';
 import { base } from '$app/paths';
 
+// Logos
 const gh = (file: string) => `${base}/logos/${file}`;
 
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
+
+// Images
+const im = (file: string) => `${base}/images/${file}`;
+
+const b = (light: string, dark?: string): Asset =>
+	dark ? { dark: im(dark), light: im(light) } : im(light);
 
 const Assets = {
 	AWS: a('aws.svg'),
@@ -76,23 +83,28 @@ const Assets = {
 	CSUB: a('CSUB.png'),
 	Scribble: a('scrib_icon.png'),
 	Bass: a('bass.png'),
-	// Projects
-	ScribLogin: a('Scribble/Login.png'),
-	ScribChat: a('Scribble/Chatroom.png'),
-	ScribProfile: a('Scribble/Profile.png'),
-	ScribClass: a('Scribble/create-class.png'),
-	ScribPersonal: a('Scribble/notes-personal.png'),
-	ScribCollab: a('Scribble/notes-collab.png'),
-	ScribGif: a('Scribble/chatroom-gifs.png'),
-	IAFLogin: a('IAF/Login.png'),
-	IAFHome: a('IAF/HomePage.png'),
-	IAFCatches: a('IAF/Catches.png'),
-	IAFWeather: a('IAF/Weather.png'),
-	IAFAdmin: a('IAF/Admin.png'),
-	IAFUserMan: a('IAF/UserManagement.png')
+};
+
+const Images = {
+	// Scribble
+	ScribLogin: b('Scribble/Login.png'),
+	ScribChat: b('Scribble/Chatroom.png'),
+	ScribProfile: b('Scribble/Profile.png'),
+	ScribClass: b('Scribble/create-class.png'),
+	ScribPersonal: b('Scribble/notes-personal.png'),
+	ScribCollab: b('Scribble/notes-collab.png'),
+	ScribGif: b('Scribble/chatroom-gifs.png'),
+	// Inform A Fish
+	IAFLogin: b('IAF/Login.png'),
+	IAFHome: b('IAF/HomePage.png'),
+	IAFCatches: b('IAF/Catches.png'),
+	IAFWeather: b('IAF/Weather.png'),
+	IAFAdmin: b('IAF/Admin.png'),
+	IAFUserMan: b('IAF/UserManagement.png')
 };
 
 export default Assets;
+export { Images };
 
 let currentTheme: boolean;
 

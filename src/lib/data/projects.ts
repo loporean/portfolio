@@ -1,4 +1,5 @@
 import Assets from './assets';
+import { Images } from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
 
@@ -71,7 +72,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Real-time student collaboration platform with live chat and interactive notebooks. Built with React, Node.js, and AWS.',
 		links: [
-			{ to: 'https://scribblestudent.com/', label: 'Wesbite' }, 
+			{ to: 'https://scribblestudent.com/', label: 'Website' }, 
 			{ to: 'https://github.com/loporean/Scribble', label: 'GitHub' }
 		],
 		logo: Assets.Scribble,
@@ -84,31 +85,31 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Login',
-				src: Assets.ScribLogin
+				src: Images.ScribLogin
 			},
 			{
 				label: 'Chatroom',
-				src: Assets.ScribChat
+				src: Images.ScribChat
 			},
 			{
 				label: 'Profile',
-				src: Assets.ScribProfile
+				src: Images.ScribProfile
 			},
 			{
-				label: 'Class Creation',
-				src: Assets.ScribClass
+				label: 'Classroom Creation',
+				src: Images.ScribClass
 			},
 			{
 				label: 'Personal Notes',
-				src: Assets.ScribPersonal
+				src: Images.ScribPersonal
 			},
 			{
 				label: 'Collaborative Notes',
-				src: Assets.ScribCollab
+				src: Images.ScribCollab
 			},
 			{
 				label: 'Chatroom GIFs',
-				src: Assets.ScribGif
+				src: Images.ScribGif
 			}
 		]
 	},
@@ -152,27 +153,27 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Login',
-				src: Assets.IAFLogin
+				src: Images.IAFLogin
 			},
 			{
 				label: 'Home Page',
-				src: Assets.IAFHome
+				src: Images.IAFHome
 			},
 			{
 				label: 'Catches',
-				src: Assets.IAFCatches
+				src: Images.IAFCatches
 			},
 			{
 				label: 'Weather',
-				src: Assets.IAFWeather
+				src: Images.IAFWeather
 			},
 			{
 				label: 'Admin Page',
-				src: Assets.IAFAdmin
+				src: Images.IAFAdmin
 			},
 			{
 				label: 'User Management',
-				src: Assets.IAFUserMan
+				src: Images.IAFUserMan
 			},
 		]
 	}

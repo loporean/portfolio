@@ -39,7 +39,7 @@ export const items = [
 		slug: 'js',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'A versatile scripting language primarily used for creating interactive web applications. In my project Scribble, I used it to develop real-time features like chat rooms, user authentication, and interactive UI elements. Through this experience, I learned how to implement real-time communication, manage user interactions, and create dynamic web content, enhancing my ability to build engaging web applications.',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -48,7 +48,7 @@ export const items = [
 		slug: 'css',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'A stylesheet language used for describing the presentation of documents written in HTML or XML. I\'ve applied CSS in all of my web development projects, including Inform A Fish and Scribble. In these projects, I used CSS to create attractive and intuitive user interfaces, implement responsive designs, and ensure a consistent look and feel across different pages and components. Through my extensive use of CSS, I\'ve become proficient in modern layout techniques like flexbox and grid, mastered the creation of responsive designs, and learned how to efficiently organize and maintain stylesheets in larger projects. This experience has significantly enhanced my ability to create visually appealing and highly functional web designs.',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -57,7 +57,7 @@ export const items = [
 		slug: 'html',
 		color: 'orange',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'The standard markup language for creating web pages. I\'ve used HTML extensively in all my web development projects, including Inform A Fish, where it was crucial for structuring content about fish species, habitats, and catch records. In the Scribble project, I worked with JSX, which is similar to HTML but allows for more dynamic content creation within React components. Through these experiences, I\'ve deepened my understanding of semantic markup, proper document structure, and the importance of accessibility in web development, enhancing my ability to create well-organized and user-friendly web interfaces.',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -66,7 +66,7 @@ export const items = [
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'A JavaScript library for building user interfaces, particularly for single-page applications. I used React in the Scribble project to build the frontend, including interactive components like the chat interface. This experience taught me component-based architecture, state management, and how to create efficient, responsive user interfaces, significantly improving my frontend development capabilities.',
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
@@ -74,15 +74,15 @@ export const items = [
 	defineSkill({
 		slug: 'nodejs',
 		color: 'green',
-		description: 'description',
+		description: 'A JavaScript runtime that allows JavaScript to run on the server. I employed Node.js for Scribble\'s backend, handling server-side operations and data management. Through this, I learned how to create scalable network applications and work with asynchronous programming in a server environment, broadening my full-stack development skills.',
 		logo: Assets.NodeJs,
 		name: 'Node Js',
 		category: 'library'
 	}),
 	defineSkill({
 		slug: 'expressjs',
-		color: 'yellow',
-		description: 'description',
+		color: 'white',
+		description: 'A minimal and flexible Node.js web application framework. I used Express.js with Node.js in Scribble to set up routes and create APIs. This experience taught me how to structure a web application backend efficiently and create RESTful APIs, enhancing my ability to develop robust server-side applications.',
 		logo: Assets.ExpressJs,
 		name: 'Express Js',
 		category: 'library'
@@ -90,7 +90,8 @@ export const items = [
 	defineSkill({
 		slug: 'python',
 		color: 'blue',
-		description: 'description',
+		description: 
+			'A high-level, interpreted programming language known for its simplicity and versatility. I applied Python in my Data Analysis Engine to process large CSV files, calculate statistics, filter data, and generate visualizations. This project taught me efficient data processing techniques, how to handle large datasets, and ways to improve processing speed, significantly enhancing my data analysis skills.',
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -98,7 +99,7 @@ export const items = [
 	defineSkill({
 		slug: 'cpp',
 		color: 'blue',
-		description: 'description',
+		description: 'A powerful, general-purpose programming language that extends C with object-oriented features. While not featured in my resume projects, I\'ve used C++ extensively in game development with SDL. This experience helped me learn fundamental programming concepts, object-oriented principles, and how to create interactive software, providing a strong foundation for my programming skills.',
 		logo: Assets.Cpp,
 		name: 'C++',
 		category: 'pro-lang'
@@ -106,15 +107,15 @@ export const items = [
 	defineSkill({
 		slug: 'c',
 		color: 'blue',
-		description: 'description',
+		description: 'A low-level programming language known for its efficiency and direct hardware access. Although I haven\'t listed specific projects using C on my resume, I\'m comfortable with the language. Working with C has given me a deeper understanding of computer architecture and low-level programming concepts, which has been invaluable in my development as a programmer.',
 		logo: Assets.C,
 		name: 'C',
 		category: 'pro-lang'
 	}),
 	defineSkill({
 		slug: 'php',
-		color: 'blue',
-		description: 'description',
+		color: 'lightblue',
+		description: 'A server-side scripting language designed for web development. I utilized PHP in the Inform A Fish project for backend development, managing fish data and user contributions. This experience taught me server-side web development, database interactions, and how to handle user-generated content, improving my skills in creating dynamic, data-driven websites.',
 		logo: Assets.PHP,
 		name: 'PHP',
 		category: 'pro-lang'

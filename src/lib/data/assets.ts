@@ -71,7 +71,25 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	PHP: a('php.png')
+	PHP: a('php.png'),
+	BC: a('BC.jpg'),
+	CSUB: a('CSUB.png'),
+	Scribble: a('scrib_icon.png'),
+	Bass: a('bass.png'),
+	// Projects
+	ScribLogin: a('Scribble/Login.png'),
+	ScribChat: a('Scribble/Chatroom.png'),
+	ScribProfile: a('Scribble/Profile.png'),
+	ScribClass: a('Scribble/create-class.png'),
+	ScribPersonal: a('Scribble/notes-personal.png'),
+	ScribCollab: a('Scribble/notes-collab.png'),
+	ScribGif: a('Scribble/chatroom-gifs.png'),
+	IAFLogin: a('IAF/Login.png'),
+	IAFHome: a('IAF/HomePage.png'),
+	IAFCatches: a('IAF/Catches.png'),
+	IAFWeather: a('IAF/Weather.png'),
+	IAFAdmin: a('IAF/Admin.png'),
+	IAFUserMan: a('IAF/UserManagement.png')
 };
 
 export default Assets;

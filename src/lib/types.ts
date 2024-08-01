@@ -29,7 +29,8 @@ export interface Item<S extends string = string> {
 	logo: Asset;
 	shortDescription: string;
 	description: string;
-	screenshots?: Array<{ src: string; label: string }>;
+	// screenshots?: Array<{ src: string; label: string }>;
+	screenshots?: Array<{ src: string | Asset; label: string }>;
 }
 
 export interface Link {

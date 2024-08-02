@@ -8,7 +8,7 @@ export const items: Array<Education> = [
 		location: 'Bakersfield, CA',
 		logo: Assets.CSUB,
 		name: '',
-		organization: 'Calfironia State University, Bakersfield',
+		organization: 'California State University, Bakersfield',
 		period: { from: new Date(2022, 0, 1), to: new Date(2024, 5, 17) },
 		shortDescription: '',
 		slug: 'CSUB',

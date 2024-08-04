@@ -129,7 +129,37 @@ export const items: Array<Project> = [
 			from: new Date(2022, 8, 0), to: new Date(2022, 12, 0)
 		},
 		skills: getSkills('python'),
-		type: 'Data Analysis'
+		type: 'Data Analysis',
+		screenshots: [
+			{
+				label: 'Menu',
+				src: Images.DAEMenu
+			},
+			{
+				label: 'Load Data',
+				src: Images.DAELoad
+			},
+			{
+				label: 'Explore Data',
+				src: Images.DAEExplore
+			},
+			{
+				label: 'List of columns',
+				src: Images.DAEDesc
+			},
+			{
+				label: 'Description of Month Column',
+				src: Images.DAEDescMonth
+			},
+			{
+				label: 'Sorted Month Values',
+				src: Images.DAESortMonth
+			},
+			{
+				label: 'Distinct Values in Month Column',
+				src: Images.DAEDistMonth
+			}
+		]
 	},
 	{
 		slug: 'inform-a-fish',

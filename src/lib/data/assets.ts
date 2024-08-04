@@ -100,7 +100,15 @@ const Images = {
 	IAFCatches: b('IAF/Catches.png'),
 	IAFWeather: b('IAF/Weather.png'),
 	IAFAdmin: b('IAF/Admin.png'),
-	IAFUserMan: b('IAF/UserManagement.png')
+	IAFUserMan: b('IAF/UserManagement.png'),
+	// Data Analysis Engine
+	DAEMenu: b('DAE/Menu.png'),
+	DAELoad: b('DAE/Load-Data.png'),
+	DAEExplore: b('DAE/Explore-Data.png'),
+	DAEDesc: b('DAE/Desc-Col.png'),
+	DAEDescMonth: b('DAE/Desc-Month.png'),
+	DAESortMonth: b('DAE/Sort-Vals-Month.png'),
+	DAEDistMonth: b('DAE/Distinct-Vals-Month.png')
 };
 
 export default Assets;

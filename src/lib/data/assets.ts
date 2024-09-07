@@ -79,10 +79,13 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	PHP: a('php.png'),
+	// Education
 	BC: a('BC.jpg'),
 	CSUB: a('CSUB.png'),
+	// Projects
 	Scribble: a('scrib_icon.png'),
 	Bass: a('bass.png'),
+	Shadowcrest: a('shadowcrest.png')
 };
 
 const Images = {
@@ -108,7 +111,11 @@ const Images = {
 	DAEDesc: b('DAE/Desc-Col.png'),
 	DAEDescMonth: b('DAE/Desc-Month.png'),
 	DAESortMonth: b('DAE/Sort-Vals-Month.png'),
-	DAEDistMonth: b('DAE/Distinct-Vals-Month.png')
+	DAEDistMonth: b('DAE/Distinct-Vals-Month.png'),
+	// Shadowcrest
+	SCTitle: b('SC/TitleScreen.png'),
+	SCSettings: b('SC/Settings.png'),
+	SCGameplay: b('SC/Gameplay.png')
 };
 
 export default Assets;

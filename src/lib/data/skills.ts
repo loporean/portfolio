@@ -107,7 +107,7 @@ export const items = [
 	defineSkill({
 		slug: 'c',
 		color: 'blue',
-		description: 'A low-level programming language known for its efficiency and direct hardware access. Although I haven\'t listed specific projects using C on my resume, I\'m comfortable with the language. Working with C has given me a deeper understanding of computer architecture and low-level programming concepts, which has been invaluable in my development as a programmer.',
+		description: 'A low-level programming language renowned for its efficiency and direct hardware access. I have utilized C in developing a 2D sidescroller game using SDL, which highlights my proficiency in the language. This experience has deepened my understanding of computer architecture and low-level programming concepts, significantly contributing to my growth as a programmer.',
 		logo: Assets.C,
 		name: 'C',
 		category: 'pro-lang'

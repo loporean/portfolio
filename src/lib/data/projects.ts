@@ -114,6 +114,38 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'shadowcrest',
+		color: '#f59542',
+		description:
+			'Shadowcrest is an RPG sidescroller that blends functional gameplay with dynamic visual effects. Developed using C, SDL, and OpenGL, this passion project features parallax scrolling and customizable settings that let you tailor the experience. While not fully-featured, Shadowcrest continues to evolve with ongoing development.',
+		shortDescription:
+			'An RPG sidescroller featuring parallax scrolling, dynamic settings, and evolving gameplay—crafted with passion and still growing.',
+		links: [ 
+			{ to: 'https://github.com/loporean/Shadowcrest', label: 'GitHub' }
+		],
+		logo: Assets.Shadowcrest,
+		name: 'Shadowcrest',
+		period: {
+			from: new Date(2024, 1, 0), to: new Date(2024, 6, 0)
+		},
+		skills: getSkills('c'),
+		type: 'Role Playing Game',
+		screenshots: [
+			{
+				label: 'Title Screen',
+				src: Images.SCTitle
+			},
+			{
+				label: 'Settings',
+				src: Images.SCSettings
+			},
+			{
+				label: 'Gameplay',
+				src: Images.SCGameplay
+			}
+		]
+	},
+	{
 		slug: 'data-analysis-engine',
 		color: 'whitesmoke',
 		description:
